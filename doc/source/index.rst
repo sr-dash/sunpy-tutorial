@@ -23,7 +23,7 @@ Make it executable by ``>> chmod +x Anaconda3-2019.10-Linux-x86_64.sh``.
 For installing the setup run 
 ``>> ./Anaconda3-2019.10-Linux-x86_64.sh``. 
 
-You don't require administrative permissions for intalling this. During installation please choose a working directory of your choice.
+You don't require administrative permissions for intalling this. During installation please choose a working directory of your choice (where you have read/write permission, e.g. ~/anaconda3).
 
 Once you are done with this step, run the following commands.
 
