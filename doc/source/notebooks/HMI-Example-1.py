@@ -7,7 +7,7 @@
 
 # Change the sharp number field to run and get the area contours.
 
-# In[2]:
+# In[1]:
 
 
 from __future__ import division, print_function
@@ -26,7 +26,7 @@ segments = ['magnetogram', 'continuum']
 kwlist = ['T_REC', 'LON_FWT', 'OBS_VR', 'CROTA2',
           'CRPIX1', 'CRPIX2', 'CDELT1', 'CDELT2', 'CRVAL1', 'CRVAL2']
 
-c = drms.Client(email='dash.soumya922@gmail.com', verbose=True) ##Use your own email address.
+c = drms.Client() ##Use your own email address.
 k = c.query('%s[%d]' % (series, sharpnum), key=kwlist, rec_index=True)
 
 rec_cm = k.LON_FWT.abs().idxmin()
@@ -62,7 +62,7 @@ mag = read_fits_data(fnames['magnetogram'])
 cont = read_fits_data(fnames['continuum'])
 
 
-# In[3]:
+# In[2]:
 
 
 ny, nx = mag.shape
@@ -76,16 +76,16 @@ x_data = n.linspace(xmin,xmax,nx)
 y_data = n.linspace(ymin,ymax,ny)
 
 
-# In[4]:
+# In[3]:
 
 
 import sunpy.map
 a1 = sunpy.map.Map(fnames['magnetogram'])
 
 
-# ## Calculate Area with 1sigma cut-off
+# ## Calculate Area with 150G cut-off
 
-# In[5]:
+# In[4]:
 
 
 lv1 = 150 #Standard deviation of the B distribution on the SHARP region
@@ -104,7 +104,7 @@ area_hdr = a1.meta['area_acr']
 
 # ## Plot Images and save them
 
-# In[7]:
+# In[5]:
 
 
 plt.rc('font',family='serif')
