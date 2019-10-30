@@ -25,7 +25,7 @@ For installing the setup run
 
 You don't require administrative permissions for intalling this. During installation please choose a working directory of your choice (where you have read/write permission, e.g. ~/anaconda3).
 
-Once you are done with this step, run the following commands.
+Once you are done with this step, run the following commands in a new terminal.
 
 ``>> conda update conda``
 
