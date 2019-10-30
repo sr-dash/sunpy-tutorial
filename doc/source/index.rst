@@ -18,6 +18,8 @@ If you already have installe Anaconda distribution then you don't need to go thr
 
 Please download the setup file for Anaconda (Python 3.7 compatible) via this `link <https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh>`_.
 
+Make it executable by ``>> chmod +x Anaconda3-2019.10-Linux-x86_64.sh``.
+
 For installing the setup run 
 ``>> ./Anaconda3-2019.10-Linux-x86_64.sh``. 
 
