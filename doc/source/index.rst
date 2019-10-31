@@ -49,7 +49,7 @@ At the top-right corner you will find a tab 'New', create a new python3 notebook
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    Tutorial 1 (HMI data ananysis)<first-example>
    Tutorial 2 (AIA data ananysis)<second-example>
