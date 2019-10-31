@@ -63,7 +63,7 @@ html_logo = 'logo_cessi.png'
 html_favicon = 'cessi_favcon.png'
 html_theme_options = {
     'canonical_url': '',
-    #'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
+    'analytics_id': 'UA-87781937-2',  #  Provided by Google in your dashboard
     'logo_only': False,
     #'display_version': True,
     'prev_next_buttons_location': 'bottom',
@@ -76,7 +76,7 @@ html_theme_options = {
     'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False,
-    'test-align': justify
+    #'test-align': justify
 }
 
 
