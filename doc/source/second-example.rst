@@ -4,7 +4,7 @@ Tutorial 2 (AIA data ananysis)
 Importing and ploting data
 ==========================
 
-Solar Dynamics Observatory is of the most successfull missions by NASA in 2010 which aids the routine observations of Sun in different channels. Atmospheric Imaging Assembly is one of the instruments on board SDO which looks at different layers of Sun. Angular resolution of AIA is about 1″ (arcsec). It uses a variety of filters in parallel to gather 8 images of the Sun every 12 seconds. Each observation retruns an image of visible solar disk at an resolution of 4096x4096 pixels.
+`Solar Dynamics Observatory (SDO) <https://sdo.gsfc.nasa.gov/>`_ is of the most successfull missions by `NASA <https://www.nasa.gov/>`_ in 2010 which aids the routine observations of Sun in different channels. `Atmospheric Imaging Assembly (AIA) <https://aia.lmsal.com/>`_ is one of the instruments on board SDO which looks at different layers of Sun. Angular resolution of AIA is about 1″ (arcsec). It uses a variety of filters in parallel to gather 8 images of the Sun every 12 seconds. Each observation retruns an image of visible solar disk at an resolution of 4096x4096 pixels.
 
 Different channels/filters in AIA observe different layers of the Sun. This il help us track variousactivities that are going on in the solar atmosphere.
 
