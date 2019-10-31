@@ -14,7 +14,10 @@ Installation instructions for Anaconda and SunPy
 ################################################
 
 
-If you already have installe Anaconda distribution then you don't need to go through this. Follow the package installation instructions.
+If you already have installed Anaconda distribution then you don't need to go through step 1. Please follow the package installation instructions in step 2.
+
+Step 1
+------
 
 Please download the setup file for Anaconda (Python 3.7 compatible) via this `link <https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh>`_.
 
@@ -25,7 +28,10 @@ For installing the setup run
 
 You don't require administrative permissions for intalling this. During installation please choose a working directory of your choice (where you have read/write permission, e.g. ~/anaconda3).
 
-Once you are done with this step, run the following commands in a new terminal.
+step 2
+------
+
+Once you are done with this step 1, run the following commands in a new terminal.
 
 ``>> conda update conda``
 
