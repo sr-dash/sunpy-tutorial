@@ -1,4 +1,4 @@
-How to import data into Jupyter
+Tutorial 1 (HMI data ananysis)
 *******************************
 
 Importing and ploting data

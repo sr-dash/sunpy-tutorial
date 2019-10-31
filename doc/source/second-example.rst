@@ -1,4 +1,4 @@
-How to import data into Jupyter
+Tutorial 2 (AIA data ananysis)
 *******************************
 
 Importing and ploting data
