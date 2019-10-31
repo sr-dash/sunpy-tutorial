@@ -46,7 +46,7 @@ For launching a new jupyter noteboook run ``>> jupyter notebook``.
 At the top-right corner you will find a tab 'New', create a new python3 notebook.
 
 
-Contents:
+Tutorials for analyzing solar data:
 
 .. toctree::
    :maxdepth: 1
