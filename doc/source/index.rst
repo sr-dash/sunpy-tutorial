@@ -51,6 +51,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   first-example
+   Tutorial 1 (HMI data ananysis)<first-example>
+   Tutorial 2 (AIA data ananysis)<second-example>
    
 
