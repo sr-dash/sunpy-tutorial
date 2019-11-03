@@ -28,7 +28,7 @@ For installing the setup run
 
 You don't require administrative permissions for intalling this. During installation please choose a working directory of your choice (where you have read/write permission, e.g. ~/anaconda3).
 
-step 2
+Step 2
 ------
 
 Once you are done with this step 1, run the following commands in a new terminal.
