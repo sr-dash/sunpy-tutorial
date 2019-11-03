@@ -76,7 +76,7 @@ html_theme_options = {
     'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False,
-    'testalign': 'justify'
+    'textalign': 'justify'
 }
 
 
