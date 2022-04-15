@@ -48,6 +48,7 @@ Once you are done with this step 1, run the following commands in a new terminal
 
 For launching a new jupyter noteboook run ``>> jupyter notebook``.
 
+Thank you.
 
 At the top-right corner you will find a tab 'New', create a new python3 notebook.
 
